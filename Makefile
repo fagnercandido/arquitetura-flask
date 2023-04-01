@@ -7,7 +7,7 @@ help:
 all: clean install test 
 
 test:
-	pytest pydaria/tests -v
+	pytest alqi_chatbot/tests -v
 
 install:
 	pip install --upgrade pip

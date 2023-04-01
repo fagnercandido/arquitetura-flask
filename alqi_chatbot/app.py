@@ -1,6 +1,6 @@
 from flask import Flask
 
-from pydaria.ext import configuration
+from alqi_chatbot.ext import configuration
 
 
 def minimal_app(**config):

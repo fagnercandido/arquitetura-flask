@@ -1,4 +1,4 @@
-from pydaria.ext.database import db
+from alqi_chatbot.ext.database import db
 from sqlalchemy_serializer import SerializerMixin
 
 

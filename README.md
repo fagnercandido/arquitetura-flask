@@ -1,4 +1,4 @@
-# ALQI Backend
+# alqi_chatbot Backend
 
 ## Environment
 
@@ -14,7 +14,7 @@ pip install -r requirements_test.txt
 ## Testing
 
 ```bash
-pytest pydaria/tests
+pytest alqi_chatbot/tests
 ```
 
 ## Executing
@@ -28,8 +28,6 @@ flask run
 Access:
 
 - Website: http://localhost:5000
-- Admin: http://localhost:5000/admin/
-  - user: admin, senha: 1234
 - API GET:
   - https://localhost:5000/api/v1/product/
   - https://localhost:5000/api/v1/product/1

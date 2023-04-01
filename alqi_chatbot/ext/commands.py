@@ -1,6 +1,6 @@
 import click
-from pydaria.ext.database import db
-from pydaria.models import Product
+from alqi_chatbot.ext.database import db
+from alqi_chatbot.models import Product
 
 
 def create_db():

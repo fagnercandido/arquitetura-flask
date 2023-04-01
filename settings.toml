@@ -1,17 +1,17 @@
 [default]
 DEBUG = false
-FLASK_ADMIN_NAME = "Pydaria Admin"
+FLASK_ADMIN_NAME = "alqi_chatbot"
 FLASK_ADMIN_TEMPLATE_MODE = "bootstrap3"
 FLASK_ADMIN_SWATCH = 'cerulean'
 SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
-TITLE = "Pydaria"
+TITLE = "alqi_chatbot"
 SECRET_KEY = "jadkfbsdkjbfbh"
 PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
 EXTENSIONS = [
-    "pydaria.ext.database:init_app",
-    "pydaria.ext.commands:init_app",
-    "pydaria.blueprints.webui:init_app",
-    "pydaria.blueprints.restapi:init_app",
+    "alqi_chatbot.ext.database:init_app",
+    "alqi_chatbot.ext.commands:init_app",
+    "alqi_chatbot.blueprints.webui:init_app",
+    "alqi_chatbot.blueprints.restapi:init_app",
 ]
 
 
