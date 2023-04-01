@@ -1,6 +1,5 @@
 import click
 from pydaria.ext.database import db
-from pydaria.ext.auth import create_user
 from pydaria.models import Product
 
 
@@ -39,4 +38,4 @@ def init_app(app):
     @click.option('--password', '-p')
     def add_user(username, password):
         """Adds a new user to the database"""
-        return create_user(username, password)
+        return None

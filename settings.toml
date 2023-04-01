@@ -8,10 +8,7 @@ TITLE = "Pydaria"
 SECRET_KEY = "jadkfbsdkjbfbh"
 PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
 EXTENSIONS = [
-    "pydaria.ext.appearance:init_app",
     "pydaria.ext.database:init_app",
-    "pydaria.ext.auth:init_app",
-    "pydaria.ext.admin:init_app",
     "pydaria.ext.commands:init_app",
     "pydaria.blueprints.webui:init_app",
     "pydaria.blueprints.restapi:init_app",
